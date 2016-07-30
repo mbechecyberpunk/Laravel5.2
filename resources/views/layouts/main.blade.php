@@ -108,14 +108,16 @@
                         <a href="#"><i class="fa fa-user"></i> <span>Agents</span><span class="fa arrow"></span></a>
                         <ul class="nav nav-second-level collapse">
 
-                            <li><a href="#">AgentsCompliance</a></li>
-                            <li><a href="#">AgentsCompliance</a></li>
-                            <li><a href="#">Agents Concentrations</a></li>
-                            <li><a href="#">Agents Visit History</a></li>
-                            <li><a href="#">Questionnaire</a></li>
-                              <li><a href="{{route('questions.index')}}"</a>Agents Visits</li>
+                            <li><a href="#"><i class="fa fa-user"></i> AgentsCompliance</a></li>
+                            <li><a href="#"><i class="fa fa-user"></i> AgentsCompliance</a></li>
+                            <li><a href="#"><i class="fa fa-user"></i> Agents Concentrations</a></li>
+                            <li><a href="#"><i class="fa fa-user"></i> Agents Visit History</a></li>
+                            <li><a href="#"><i class="fa fa-user"></i> Questionnaire</a></li>
+                            <li><a href="#"><i class="fa fa-signal"></i> Analytics</a></li>
+                              <li><a href="{{route('questions.index')}}"</a><i class="fa fa-user"></i> Agents Visits</li>
                         </ul>
                     </li>
+
 
               </ul>
             </div>
