@@ -46,7 +46,6 @@ class AgentController extends Controller
     {
         $this->validate($request,array(
           'number'=>'required',
-          'gender'=>'required',
           'name'=>'required|max:255',
            'phone'=>'required',
            'address'=>'required',
@@ -56,7 +55,6 @@ class AgentController extends Controller
 
   $agent=new Agent;
   $agent->number=$request->number;
-  $agent->gender=$request->gender;
   $agent->name=$request->name;
   $agent->phone=$request->phone;
   $agent->address=$request->address;

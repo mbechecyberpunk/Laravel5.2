@@ -9,15 +9,7 @@
 
                      {{Form::label('name','Agents Name:')}}
                      {{Form::text('name',null,array('class'=>'form-control'))}}
-                     <br>
-
-                           {{Form::label('gender','Gender?')}}
-                           <span class="Form-label-text">Male</span>
-                           <input type="radio" value="Male" name="gender" >
-                           <span class="Form-label-text">Female</span>
-                           <input type="radio" value="Female" name="gender" >
-                        
-                      <br>
+                     
                      {{Form::label('number','Agents Number:')}}
                      {{Form::number('number',null,array('class'=>'form-control'))}}
                      {{Form::label('phone','Agents Phone:')}}
