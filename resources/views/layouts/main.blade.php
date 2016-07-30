@@ -113,7 +113,7 @@
                             <li><a href="#"><i class="fa fa-user"></i> Agents Concentrations</a></li>
                             <li><a href="#"><i class="fa fa-user"></i> Agents Visit History</a></li>
                             <li><a href="#"><i class="fa fa-user"></i> Questionnaire</a></li>
-                            <li><a href="#"><i class="fa fa-signal"></i> Analytics</a></li>
+                            <li><a href="{{route('analytics.index')}}"><i class="fa fa-signal"></i> Analytics</a></li>
                               <li><a href="{{route('questions.index')}}"</a><i class="fa fa-user"></i> Agents Visits</li>
                         </ul>
                     </li>

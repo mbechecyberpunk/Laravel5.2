@@ -14,3 +14,4 @@
 Route::get('/','AgentController@index');
 Route::resource('agents','AgentController');
 Route::resource('questions','QuestionController');
+Route::resource('analytics','AnalyticsController');
